@@ -88,7 +88,7 @@ extension OKColor {
 
 #if os(iOS) || os(tvOS)
 
-    class OKView: UIView {
+    public class OKView: UIView {
 
         public var okBackgroundColor: OKColor? {
             didSet {
@@ -100,11 +100,11 @@ extension OKColor {
             super.init(frame: frame)
         }
 
-        required init?(coder aDecoder: NSCoder) {
+        required public init?(coder aDecoder: NSCoder) {
             fatalError("init(coder:) has not been implemented")
         }
 
-        override func draw(_ rect: CGRect) {
+        override public func draw(_ rect: CGRect) {
             super.draw(rect)
         }
     }
@@ -119,7 +119,7 @@ extension OKColor {
 
 #else
 
-    class OKView: NSView {
+    public class OKView: NSView {
 
         public var okBackgroundColor: OKColor? {
             didSet {
@@ -220,11 +220,11 @@ public func OKPrint(_ object: @autoclosure() -> Any?,
     #endif
 }
 
-protocol OKDescriptable {
+public protocol OKDescriptable {
     func propertyDescription() -> String
 }
 
-extension OKDescriptable {
+public extension OKDescriptable {
     func propertyDescription() -> String {
         let strings = Mirror(reflecting: self).children.flatMap { "\($0.label!): \($0.value)" }
         var string = ""

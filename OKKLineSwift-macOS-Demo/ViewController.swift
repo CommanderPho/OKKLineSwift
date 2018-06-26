@@ -8,6 +8,7 @@
 import Cocoa
 import SnapKit
 import Just
+import OKKlineSwift_macOS
 
 class ViewController: NSViewController {
     

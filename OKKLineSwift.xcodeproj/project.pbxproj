@@ -7,28 +7,54 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00C494AC7E8F627D1968F9E7 /* Pods_OKKLineSwift_macOS_DemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B239D3482E2E575AC62AA59 /* Pods_OKKLineSwift_macOS_DemoTests.framework */; };
 		3062CD13401129259503461F /* Pods_OKKLineSwift_iOS_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14414C84CE7B86B8732E7D07 /* Pods_OKKLineSwift_iOS_Demo.framework */; };
-		6EC14818A18A3E1368440154 /* Pods_OKKLineSwift_iOS_DemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40BD84927F22F754DD4179CC /* Pods_OKKLineSwift_iOS_DemoTests.framework */; };
-		8835D6D720E2035B00115BE2 /* OKConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E1F5851E2DC26300E12D90 /* OKConfiguration.swift */; };
-		8835D6D820E2035B00115BE2 /* OKPlatform.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E1F5861E2DC26300E12D90 /* OKPlatform.swift */; };
-		8835D6D920E2036600115BE2 /* OKBOLLModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E1F5891E2DC26300E12D90 /* OKBOLLModel.swift */; };
-		8835D6DA20E2036600115BE2 /* OKEMAModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E1F58A1E2DC26300E12D90 /* OKEMAModel.swift */; };
-		8835D6DB20E2036600115BE2 /* OKEMAVOLUMEModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E1F58B1E2DC26300E12D90 /* OKEMAVOLUMEModel.swift */; };
-		8835D6DC20E2036600115BE2 /* OKKDJModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E1F58C1E2DC26300E12D90 /* OKKDJModel.swift */; };
-		8835D6DD20E2036600115BE2 /* OKMACDModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E1F58D1E2DC26300E12D90 /* OKMACDModel.swift */; };
-		8835D6DE20E2036600115BE2 /* OKMAModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E1F58E1E2DC26300E12D90 /* OKMAModel.swift */; };
-		8835D6DF20E2036600115BE2 /* OKMAVOLUMEModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E1F58F1E2DC26300E12D90 /* OKMAVOLUMEModel.swift */; };
-		8835D6E020E2036B00115BE2 /* OKKLineModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E1F5901E2DC26300E12D90 /* OKKLineModel.swift */; };
-		8835D6E120E2037100115BE2 /* OKLineBrush.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E1F5921E2DC26300E12D90 /* OKLineBrush.swift */; };
-		8835D6E220E2037100115BE2 /* OKMALineBrush.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E1F5931E2DC26300E12D90 /* OKMALineBrush.swift */; };
-		8835D6E320E2037700115BE2 /* OKKLineAccessoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E1F5961E2DC26300E12D90 /* OKKLineAccessoryView.swift */; };
-		8835D6E420E2037A00115BE2 /* OKKLineMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E1F5981E2DC26300E12D90 /* OKKLineMainView.swift */; };
-		8835D6E520E2037E00115BE2 /* OKKLineDrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E1F5991E2DC26300E12D90 /* OKKLineDrawView.swift */; };
-		8835D6E620E2037E00115BE2 /* OKKLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E1F59A1E2DC26300E12D90 /* OKKLineView.swift */; };
-		8835D6E720E2037E00115BE2 /* OKValueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E1F59B1E2DC26300E12D90 /* OKValueView.swift */; };
-		8835D6E820E2038200115BE2 /* OKSegmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E1F59D1E2DC26300E12D90 /* OKSegmentView.swift */; };
-		8835D6E920E2038600115BE2 /* OKKLineVolumeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E1F59F1E2DC26300E12D90 /* OKKLineVolumeView.swift */; };
+		8835D6F320E20B2C00115BE2 /* OKKlineSwift_macOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 8835D6F120E20B2C00115BE2 /* OKKlineSwift_macOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8835D6F620E20B2C00115BE2 /* OKKLineSwift_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8835D6EF20E20B2C00115BE2 /* OKKLineSwift_macOS.framework */; };
+		8835D6F720E20B2C00115BE2 /* OKKLineSwift_macOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8835D6EF20E20B2C00115BE2 /* OKKLineSwift_macOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8835D6FC20E20B4600115BE2 /* OKConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E1F5851E2DC26300E12D90 /* OKConfiguration.swift */; };
+		8835D6FD20E20B4600115BE2 /* OKPlatform.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E1F5861E2DC26300E12D90 /* OKPlatform.swift */; };
+		8835D6FE20E20B5D00115BE2 /* OKBOLLModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E1F5891E2DC26300E12D90 /* OKBOLLModel.swift */; };
+		8835D6FF20E20B5D00115BE2 /* OKEMAModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E1F58A1E2DC26300E12D90 /* OKEMAModel.swift */; };
+		8835D70020E20B5D00115BE2 /* OKEMAVOLUMEModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E1F58B1E2DC26300E12D90 /* OKEMAVOLUMEModel.swift */; };
+		8835D70120E20B5D00115BE2 /* OKKDJModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E1F58C1E2DC26300E12D90 /* OKKDJModel.swift */; };
+		8835D70220E20B5D00115BE2 /* OKMACDModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E1F58D1E2DC26300E12D90 /* OKMACDModel.swift */; };
+		8835D70320E20B5D00115BE2 /* OKMAModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E1F58E1E2DC26300E12D90 /* OKMAModel.swift */; };
+		8835D70420E20B5D00115BE2 /* OKMAVOLUMEModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E1F58F1E2DC26300E12D90 /* OKMAVOLUMEModel.swift */; };
+		8835D70520E20B6000115BE2 /* OKKLineModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E1F5901E2DC26300E12D90 /* OKKLineModel.swift */; };
+		8835D70620E20B6600115BE2 /* OKLineBrush.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E1F5921E2DC26300E12D90 /* OKLineBrush.swift */; };
+		8835D70720E20B6600115BE2 /* OKMALineBrush.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E1F5931E2DC26300E12D90 /* OKMALineBrush.swift */; };
+		8835D70820E20B6B00115BE2 /* OKKLineAccessoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E1F5961E2DC26300E12D90 /* OKKLineAccessoryView.swift */; };
+		8835D70920E20B6E00115BE2 /* OKKLineMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E1F5981E2DC26300E12D90 /* OKKLineMainView.swift */; };
+		8835D70A20E20B7100115BE2 /* OKKLineDrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E1F5991E2DC26300E12D90 /* OKKLineDrawView.swift */; };
+		8835D70B20E20B7100115BE2 /* OKKLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E1F59A1E2DC26300E12D90 /* OKKLineView.swift */; };
+		8835D70C20E20B7100115BE2 /* OKValueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E1F59B1E2DC26300E12D90 /* OKValueView.swift */; };
+		8835D70D20E20B7400115BE2 /* OKSegmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E1F59D1E2DC26300E12D90 /* OKSegmentView.swift */; };
+		8835D70E20E20B7700115BE2 /* OKKLineVolumeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E1F59F1E2DC26300E12D90 /* OKKLineVolumeView.swift */; };
+		8835D71820E2113700115BE2 /* OKKLineSwift_iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 8835D71620E2113700115BE2 /* OKKLineSwift_iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8835D71B20E2113700115BE2 /* OKKLineSwift_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8835D71420E2113700115BE2 /* OKKLineSwift_iOS.framework */; };
+		8835D71C20E2113700115BE2 /* OKKLineSwift_iOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8835D71420E2113700115BE2 /* OKKLineSwift_iOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8835D72120E2114F00115BE2 /* OKConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E1F5851E2DC26300E12D90 /* OKConfiguration.swift */; };
+		8835D72220E2114F00115BE2 /* OKPlatform.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E1F5861E2DC26300E12D90 /* OKPlatform.swift */; };
+		8835D72320E2115300115BE2 /* OKBOLLModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E1F5891E2DC26300E12D90 /* OKBOLLModel.swift */; };
+		8835D72420E2115300115BE2 /* OKEMAModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E1F58A1E2DC26300E12D90 /* OKEMAModel.swift */; };
+		8835D72520E2115300115BE2 /* OKEMAVOLUMEModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E1F58B1E2DC26300E12D90 /* OKEMAVOLUMEModel.swift */; };
+		8835D72620E2115300115BE2 /* OKKDJModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E1F58C1E2DC26300E12D90 /* OKKDJModel.swift */; };
+		8835D72720E2115300115BE2 /* OKMACDModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E1F58D1E2DC26300E12D90 /* OKMACDModel.swift */; };
+		8835D72820E2115300115BE2 /* OKMAModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E1F58E1E2DC26300E12D90 /* OKMAModel.swift */; };
+		8835D72920E2115300115BE2 /* OKMAVOLUMEModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E1F58F1E2DC26300E12D90 /* OKMAVOLUMEModel.swift */; };
+		8835D72A20E2115600115BE2 /* OKKLineModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E1F5901E2DC26300E12D90 /* OKKLineModel.swift */; };
+		8835D72B20E2115A00115BE2 /* OKLineBrush.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E1F5921E2DC26300E12D90 /* OKLineBrush.swift */; };
+		8835D72C20E2115A00115BE2 /* OKMALineBrush.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E1F5931E2DC26300E12D90 /* OKMALineBrush.swift */; };
+		8835D72D20E2115D00115BE2 /* OKKLineAccessoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E1F5961E2DC26300E12D90 /* OKKLineAccessoryView.swift */; };
+		8835D72E20E2115F00115BE2 /* OKKLineMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E1F5981E2DC26300E12D90 /* OKKLineMainView.swift */; };
+		8835D72F20E2116300115BE2 /* OKKLineDrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E1F5991E2DC26300E12D90 /* OKKLineDrawView.swift */; };
+		8835D73020E2116300115BE2 /* OKKLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E1F59A1E2DC26300E12D90 /* OKKLineView.swift */; };
+		8835D73120E2116300115BE2 /* OKValueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E1F59B1E2DC26300E12D90 /* OKValueView.swift */; };
+		8835D73220E2116600115BE2 /* OKSegmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E1F59D1E2DC26300E12D90 /* OKSegmentView.swift */; };
+		8835D73320E2116A00115BE2 /* OKKLineVolumeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E1F59F1E2DC26300E12D90 /* OKKLineVolumeView.swift */; };
+		B9132EF2FB1340A249798B8A /* Pods_OKKlineSwift_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB2C30F777D82D42C8276562 /* Pods_OKKlineSwift_macOS.framework */; };
+		C159EBFC49E38B572F804E76 /* Pods_OKKLineSwift_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E9F1E02287BCA19EF97DD25 /* Pods_OKKLineSwift_iOS.framework */; };
+		CCA425B0D057E5A7B3661FBE /* Pods_OKKLineSwift_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41359A878E22EC16D37C88AB /* Pods_OKKLineSwift_macOS.framework */; };
 		F32BAF2D14C482EBF63126DF /* Pods_OKKLineSwift_macOS_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D770E08B543F9649662D201 /* Pods_OKKLineSwift_macOS_Demo.framework */; };
 		F600A5391DF1212300CF1C8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F600A5381DF1212300CF1C8A /* AppDelegate.swift */; };
 		F600A53B1DF1212300CF1C8A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F600A53A1DF1212300CF1C8A /* ViewController.swift */; };
@@ -42,28 +68,23 @@
 		F6AB1B661E1BCC6600B5260D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6AB1B651E1BCC6600B5260D /* Assets.xcassets */; };
 		F6AB1B691E1BCC6600B5260D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6AB1B671E1BCC6600B5260D /* Main.storyboard */; };
 		F6AB1B741E1BCC6600B5260D /* OKKLineSwift_macOS_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6AB1B731E1BCC6600B5260D /* OKKLineSwift_macOS_DemoTests.swift */; };
-		F6E1F5A01E2DC26300E12D90 /* OKConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E1F5851E2DC26300E12D90 /* OKConfiguration.swift */; };
-		F6E1F5A11E2DC26300E12D90 /* OKPlatform.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E1F5861E2DC26300E12D90 /* OKPlatform.swift */; };
-		F6E1F5A21E2DC26300E12D90 /* OKBOLLModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E1F5891E2DC26300E12D90 /* OKBOLLModel.swift */; };
-		F6E1F5A31E2DC26300E12D90 /* OKEMAModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E1F58A1E2DC26300E12D90 /* OKEMAModel.swift */; };
-		F6E1F5A41E2DC26300E12D90 /* OKEMAVOLUMEModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E1F58B1E2DC26300E12D90 /* OKEMAVOLUMEModel.swift */; };
-		F6E1F5A51E2DC26300E12D90 /* OKKDJModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E1F58C1E2DC26300E12D90 /* OKKDJModel.swift */; };
-		F6E1F5A61E2DC26300E12D90 /* OKMACDModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E1F58D1E2DC26300E12D90 /* OKMACDModel.swift */; };
-		F6E1F5A71E2DC26300E12D90 /* OKMAModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E1F58E1E2DC26300E12D90 /* OKMAModel.swift */; };
-		F6E1F5A81E2DC26300E12D90 /* OKMAVOLUMEModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E1F58F1E2DC26300E12D90 /* OKMAVOLUMEModel.swift */; };
-		F6E1F5A91E2DC26300E12D90 /* OKKLineModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E1F5901E2DC26300E12D90 /* OKKLineModel.swift */; };
-		F6E1F5AA1E2DC26300E12D90 /* OKLineBrush.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E1F5921E2DC26300E12D90 /* OKLineBrush.swift */; };
-		F6E1F5AB1E2DC26300E12D90 /* OKMALineBrush.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E1F5931E2DC26300E12D90 /* OKMALineBrush.swift */; };
-		F6E1F5AC1E2DC26300E12D90 /* OKKLineAccessoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E1F5961E2DC26300E12D90 /* OKKLineAccessoryView.swift */; };
-		F6E1F5AD1E2DC26300E12D90 /* OKKLineMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E1F5981E2DC26300E12D90 /* OKKLineMainView.swift */; };
-		F6E1F5AE1E2DC26300E12D90 /* OKKLineDrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E1F5991E2DC26300E12D90 /* OKKLineDrawView.swift */; };
-		F6E1F5AF1E2DC26300E12D90 /* OKKLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E1F59A1E2DC26300E12D90 /* OKKLineView.swift */; };
-		F6E1F5B01E2DC26300E12D90 /* OKValueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E1F59B1E2DC26300E12D90 /* OKValueView.swift */; };
-		F6E1F5B11E2DC26300E12D90 /* OKSegmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E1F59D1E2DC26300E12D90 /* OKSegmentView.swift */; };
-		F6E1F5B21E2DC26300E12D90 /* OKKLineVolumeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E1F59F1E2DC26300E12D90 /* OKKLineVolumeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		8835D6F420E20B2C00115BE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F600A52B1DF1211000CF1C8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8835D6EE20E20B2C00115BE2;
+			remoteInfo = "OKKlineSwift-macOS";
+		};
+		8835D71920E2113700115BE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F600A52B1DF1211000CF1C8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8835D71320E2113700115BE2;
+			remoteInfo = "OKKLineSwift-iOS";
+		};
 		F600A54A1DF1212400CF1C8A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = F600A52B1DF1211000CF1C8A /* Project object */;
@@ -80,18 +101,54 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		8835D6FB20E20B2C00115BE2 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				8835D6F720E20B2C00115BE2 /* OKKLineSwift_macOS.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8835D72020E2113700115BE2 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				8835D71C20E2113700115BE2 /* OKKLineSwift_iOS.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		0D0B65D3BA98A8E4406CC775 /* Pods-OKKLineSwift-macOS-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OKKLineSwift-macOS-Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OKKLineSwift-macOS-Demo/Pods-OKKLineSwift-macOS-Demo.debug.xcconfig"; sourceTree = "<group>"; };
 		14414C84CE7B86B8732E7D07 /* Pods_OKKLineSwift_iOS_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OKKLineSwift_iOS_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EF56DB7F7D6378D106CF783 /* Pods-OKKLineSwift-iOS-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OKKLineSwift-iOS-Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OKKLineSwift-iOS-Demo/Pods-OKKLineSwift-iOS-Demo.debug.xcconfig"; sourceTree = "<group>"; };
 		2B239D3482E2E575AC62AA59 /* Pods_OKKLineSwift_macOS_DemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OKKLineSwift_macOS_DemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		36B63F0075BA0C81803EBF95 /* Pods-OKKLineSwift-macOS-DemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OKKLineSwift-macOS-DemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OKKLineSwift-macOS-DemoTests/Pods-OKKLineSwift-macOS-DemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3E9F1E02287BCA19EF97DD25 /* Pods_OKKLineSwift_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OKKLineSwift_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		40BD84927F22F754DD4179CC /* Pods_OKKLineSwift_iOS_DemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OKKLineSwift_iOS_DemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		41359A878E22EC16D37C88AB /* Pods_OKKLineSwift_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OKKLineSwift_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		449BBE750DED9FBEC98390E1 /* Pods-OKKLineSwift-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OKKLineSwift-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-OKKLineSwift-iOS/Pods-OKKLineSwift-iOS.release.xcconfig"; sourceTree = "<group>"; };
 		4D770E08B543F9649662D201 /* Pods_OKKLineSwift_macOS_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OKKLineSwift_macOS_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6A68A4B00D053EDB7FE4557C /* Pods-OKKLineSwift-iOS-DemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OKKLineSwift-iOS-DemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OKKLineSwift-iOS-DemoTests/Pods-OKKLineSwift-iOS-DemoTests.release.xcconfig"; sourceTree = "<group>"; };
-		96345391D09FDE32574D7194 /* Pods-OKKLineSwift-macOS-DemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OKKLineSwift-macOS-DemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OKKLineSwift-macOS-DemoTests/Pods-OKKLineSwift-macOS-DemoTests.release.xcconfig"; sourceTree = "<group>"; };
-		D540CBBBF2241323D97045B9 /* Pods-OKKLineSwift-iOS-DemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OKKLineSwift-iOS-DemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OKKLineSwift-iOS-DemoTests/Pods-OKKLineSwift-iOS-DemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		843F955393173DA784A20BB7 /* Pods-OKKLineSwift-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OKKLineSwift-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OKKLineSwift-iOS/Pods-OKKLineSwift-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		8835D6EF20E20B2C00115BE2 /* OKKLineSwift_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OKKLineSwift_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8835D6F120E20B2C00115BE2 /* OKKlineSwift_macOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OKKlineSwift_macOS.h; sourceTree = "<group>"; };
+		8835D6F220E20B2C00115BE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8835D71420E2113700115BE2 /* OKKLineSwift_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OKKLineSwift_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8835D71620E2113700115BE2 /* OKKLineSwift_iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OKKLineSwift_iOS.h; sourceTree = "<group>"; };
+		8835D71720E2113700115BE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		915373F478F87B047B0004F0 /* Pods-OKKlineSwift-macOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OKKlineSwift-macOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OKKlineSwift-macOS/Pods-OKKlineSwift-macOS.debug.xcconfig"; sourceTree = "<group>"; };
+		C89A116839A2361B672B461E /* Pods-OKKLineSwift-macOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OKKLineSwift-macOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OKKLineSwift-macOS/Pods-OKKLineSwift-macOS.debug.xcconfig"; sourceTree = "<group>"; };
+		D291C847EADB22800CDB3C2B /* Pods-OKKlineSwift-macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OKKlineSwift-macOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-OKKlineSwift-macOS/Pods-OKKlineSwift-macOS.release.xcconfig"; sourceTree = "<group>"; };
 		E5BD8D7F9301BC4A7C1A0D89 /* Pods-OKKLineSwift-macOS-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OKKLineSwift-macOS-Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-OKKLineSwift-macOS-Demo/Pods-OKKLineSwift-macOS-Demo.release.xcconfig"; sourceTree = "<group>"; };
+		E7D83C88E50068A801EF4C1E /* Pods-OKKLineSwift-macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OKKLineSwift-macOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-OKKLineSwift-macOS/Pods-OKKLineSwift-macOS.release.xcconfig"; sourceTree = "<group>"; };
+		EB2C30F777D82D42C8276562 /* Pods_OKKlineSwift_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OKKlineSwift_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4124D9A80FE827D3DE5C115 /* Pods-OKKLineSwift-iOS-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OKKLineSwift-iOS-Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-OKKLineSwift-iOS-Demo/Pods-OKKLineSwift-iOS-Demo.release.xcconfig"; sourceTree = "<group>"; };
 		F600A5351DF1212300CF1C8A /* OKKLineSwift-iOS-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OKKLineSwift-iOS-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F600A5381DF1212300CF1C8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -135,10 +192,28 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		8835D6EB20E20B2C00115BE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9132EF2FB1340A249798B8A /* Pods_OKKlineSwift_macOS.framework in Frameworks */,
+				CCA425B0D057E5A7B3661FBE /* Pods_OKKLineSwift_macOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8835D71020E2113700115BE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C159EBFC49E38B572F804E76 /* Pods_OKKLineSwift_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F600A5321DF1212300CF1C8A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8835D71B20E2113700115BE2 /* OKKLineSwift_iOS.framework in Frameworks */,
 				3062CD13401129259503461F /* Pods_OKKLineSwift_iOS_Demo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,7 +222,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6EC14818A18A3E1368440154 /* Pods_OKKLineSwift_iOS_DemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,6 +229,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8835D6F620E20B2C00115BE2 /* OKKLineSwift_macOS.framework in Frameworks */,
 				F32BAF2D14C482EBF63126DF /* Pods_OKKLineSwift_macOS_Demo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -163,7 +238,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00C494AC7E8F627D1968F9E7 /* Pods_OKKLineSwift_macOS_DemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,14 +249,34 @@
 			children = (
 				1EF56DB7F7D6378D106CF783 /* Pods-OKKLineSwift-iOS-Demo.debug.xcconfig */,
 				F4124D9A80FE827D3DE5C115 /* Pods-OKKLineSwift-iOS-Demo.release.xcconfig */,
-				D540CBBBF2241323D97045B9 /* Pods-OKKLineSwift-iOS-DemoTests.debug.xcconfig */,
-				6A68A4B00D053EDB7FE4557C /* Pods-OKKLineSwift-iOS-DemoTests.release.xcconfig */,
 				0D0B65D3BA98A8E4406CC775 /* Pods-OKKLineSwift-macOS-Demo.debug.xcconfig */,
 				E5BD8D7F9301BC4A7C1A0D89 /* Pods-OKKLineSwift-macOS-Demo.release.xcconfig */,
-				36B63F0075BA0C81803EBF95 /* Pods-OKKLineSwift-macOS-DemoTests.debug.xcconfig */,
-				96345391D09FDE32574D7194 /* Pods-OKKLineSwift-macOS-DemoTests.release.xcconfig */,
+				915373F478F87B047B0004F0 /* Pods-OKKlineSwift-macOS.debug.xcconfig */,
+				D291C847EADB22800CDB3C2B /* Pods-OKKlineSwift-macOS.release.xcconfig */,
+				843F955393173DA784A20BB7 /* Pods-OKKLineSwift-iOS.debug.xcconfig */,
+				449BBE750DED9FBEC98390E1 /* Pods-OKKLineSwift-iOS.release.xcconfig */,
+				C89A116839A2361B672B461E /* Pods-OKKLineSwift-macOS.debug.xcconfig */,
+				E7D83C88E50068A801EF4C1E /* Pods-OKKLineSwift-macOS.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		8835D6F020E20B2C00115BE2 /* OKKlineSwift-macOS */ = {
+			isa = PBXGroup;
+			children = (
+				8835D6F120E20B2C00115BE2 /* OKKlineSwift_macOS.h */,
+				8835D6F220E20B2C00115BE2 /* Info.plist */,
+			);
+			path = "OKKlineSwift-macOS";
+			sourceTree = "<group>";
+		};
+		8835D71520E2113700115BE2 /* OKKLineSwift-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				8835D71620E2113700115BE2 /* OKKLineSwift_iOS.h */,
+				8835D71720E2113700115BE2 /* Info.plist */,
+			);
+			path = "OKKLineSwift-iOS";
 			sourceTree = "<group>";
 		};
 		8D9494BE1BF1FF220BC9CED9 /* Frameworks */ = {
@@ -192,6 +286,9 @@
 				40BD84927F22F754DD4179CC /* Pods_OKKLineSwift_iOS_DemoTests.framework */,
 				4D770E08B543F9649662D201 /* Pods_OKKLineSwift_macOS_Demo.framework */,
 				2B239D3482E2E575AC62AA59 /* Pods_OKKLineSwift_macOS_DemoTests.framework */,
+				EB2C30F777D82D42C8276562 /* Pods_OKKlineSwift_macOS.framework */,
+				3E9F1E02287BCA19EF97DD25 /* Pods_OKKLineSwift_iOS.framework */,
+				41359A878E22EC16D37C88AB /* Pods_OKKLineSwift_macOS.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -204,6 +301,8 @@
 				F600A54C1DF1212400CF1C8A /* OKKLineSwift-iOS-DemoTests */,
 				F6AB1B601E1BCC6600B5260D /* OKKLineSwift-macOS-Demo */,
 				F6AB1B721E1BCC6600B5260D /* OKKLineSwift-macOS-DemoTests */,
+				8835D6F020E20B2C00115BE2 /* OKKlineSwift-macOS */,
+				8835D71520E2113700115BE2 /* OKKLineSwift-iOS */,
 				F600A5361DF1212300CF1C8A /* Products */,
 				23053B3D91D5B07D34686D55 /* Pods */,
 				8D9494BE1BF1FF220BC9CED9 /* Frameworks */,
@@ -217,6 +316,8 @@
 				F600A5491DF1212400CF1C8A /* OKKLineSwift-iOS-DemoTests.xctest */,
 				F6AB1B5F1E1BCC6600B5260D /* OKKLineSwift-macOS-Demo.app */,
 				F6AB1B6F1E1BCC6600B5260D /* OKKLineSwift-macOS-DemoTests.xctest */,
+				8835D6EF20E20B2C00115BE2 /* OKKLineSwift_macOS.framework */,
+				8835D71420E2113700115BE2 /* OKKLineSwift_iOS.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -365,7 +466,64 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		8835D6EC20E20B2C00115BE2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8835D6F320E20B2C00115BE2 /* OKKlineSwift_macOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8835D71120E2113700115BE2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8835D71820E2113700115BE2 /* OKKLineSwift_iOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		8835D6EE20E20B2C00115BE2 /* OKKLineSwift-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8835D6F820E20B2C00115BE2 /* Build configuration list for PBXNativeTarget "OKKLineSwift-macOS" */;
+			buildPhases = (
+				ECDCABE363CFC195E36E3D1C /* [CP] Check Pods Manifest.lock */,
+				8835D6EA20E20B2C00115BE2 /* Sources */,
+				8835D6EB20E20B2C00115BE2 /* Frameworks */,
+				8835D6EC20E20B2C00115BE2 /* Headers */,
+				8835D6ED20E20B2C00115BE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OKKLineSwift-macOS";
+			productName = "OKKlineSwift-macOS";
+			productReference = 8835D6EF20E20B2C00115BE2 /* OKKLineSwift_macOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8835D71320E2113700115BE2 /* OKKLineSwift-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8835D71F20E2113700115BE2 /* Build configuration list for PBXNativeTarget "OKKLineSwift-iOS" */;
+			buildPhases = (
+				B107431BECA1152B477D925E /* [CP] Check Pods Manifest.lock */,
+				8835D70F20E2113700115BE2 /* Sources */,
+				8835D71020E2113700115BE2 /* Frameworks */,
+				8835D71120E2113700115BE2 /* Headers */,
+				8835D71220E2113700115BE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OKKLineSwift-iOS";
+			productName = "OKKLineSwift-iOS";
+			productReference = 8835D71420E2113700115BE2 /* OKKLineSwift_iOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		F600A5341DF1212300CF1C8A /* OKKLineSwift-iOS-Demo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F600A5501DF1212400CF1C8A /* Build configuration list for PBXNativeTarget "OKKLineSwift-iOS-Demo" */;
@@ -375,10 +533,12 @@
 				F600A5321DF1212300CF1C8A /* Frameworks */,
 				F600A5331DF1212300CF1C8A /* Resources */,
 				A3A82569DD49F71DCC919D10 /* [CP] Embed Pods Frameworks */,
+				8835D72020E2113700115BE2 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				8835D71A20E2113700115BE2 /* PBXTargetDependency */,
 			);
 			name = "OKKLineSwift-iOS-Demo";
 			productName = "OKKLineSwift-iOS-Demo";
@@ -389,7 +549,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F600A5531DF1212400CF1C8A /* Build configuration list for PBXNativeTarget "OKKLineSwift-iOS-DemoTests" */;
 			buildPhases = (
-				9C0E703FA09F3F54EE6755CD /* [CP] Check Pods Manifest.lock */,
 				F600A5451DF1212400CF1C8A /* Sources */,
 				F600A5461DF1212400CF1C8A /* Frameworks */,
 				F600A5471DF1212400CF1C8A /* Resources */,
@@ -413,10 +572,12 @@
 				F6AB1B5C1E1BCC6600B5260D /* Frameworks */,
 				F6AB1B5D1E1BCC6600B5260D /* Resources */,
 				B5B280A09495BF29C2595DB7 /* [CP] Embed Pods Frameworks */,
+				8835D6FB20E20B2C00115BE2 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				8835D6F520E20B2C00115BE2 /* PBXTargetDependency */,
 			);
 			name = "OKKLineSwift-macOS-Demo";
 			productName = "OKKLineSwift-macOS-Demo";
@@ -427,7 +588,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F6AB1B791E1BCC6600B5260D /* Build configuration list for PBXNativeTarget "OKKLineSwift-macOS-DemoTests" */;
 			buildPhases = (
-				D75719B703FF5BD626FC2808 /* [CP] Check Pods Manifest.lock */,
 				F6AB1B6B1E1BCC6600B5260D /* Sources */,
 				F6AB1B6C1E1BCC6600B5260D /* Frameworks */,
 				F6AB1B6D1E1BCC6600B5260D /* Resources */,
@@ -451,6 +611,15 @@
 				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0940;
 				TargetAttributes = {
+					8835D6EE20E20B2C00115BE2 = {
+						CreatedOnToolsVersion = 9.4.1;
+						ProvisioningStyle = Automatic;
+					};
+					8835D71320E2113700115BE2 = {
+						CreatedOnToolsVersion = 9.4.1;
+						DevelopmentTeam = GQNQ7XRR23;
+						ProvisioningStyle = Automatic;
+					};
 					F600A5341DF1212300CF1C8A = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = GQNQ7XRR23;
@@ -487,8 +656,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				8835D71320E2113700115BE2 /* OKKLineSwift-iOS */,
 				F600A5341DF1212300CF1C8A /* OKKLineSwift-iOS-Demo */,
 				F600A5481DF1212400CF1C8A /* OKKLineSwift-iOS-DemoTests */,
+				8835D6EE20E20B2C00115BE2 /* OKKLineSwift-macOS */,
 				F6AB1B5E1E1BCC6600B5260D /* OKKLineSwift-macOS-Demo */,
 				F6AB1B6E1E1BCC6600B5260D /* OKKLineSwift-macOS-DemoTests */,
 			);
@@ -496,6 +667,20 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		8835D6ED20E20B2C00115BE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8835D71220E2113700115BE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F600A5331DF1212300CF1C8A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -568,7 +753,27 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9C0E703FA09F3F54EE6755CD /* [CP] Check Pods Manifest.lock */ = {
+		A3A82569DD49F71DCC919D10 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-OKKLineSwift-iOS-Demo/Pods-OKKLineSwift-iOS-Demo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit-iOS/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Just-iOS/Just.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Just.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OKKLineSwift-iOS-Demo/Pods-OKKLineSwift-iOS-Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B107431BECA1152B477D925E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -579,31 +784,11 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-OKKLineSwift-iOS-DemoTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-OKKLineSwift-iOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A3A82569DD49F71DCC919D10 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-OKKLineSwift-iOS-Demo/Pods-OKKLineSwift-iOS-Demo-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Just-iOS/Just.framework",
-				"${BUILT_PRODUCTS_DIR}/SnapKit-iOS/SnapKit.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Just.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OKKLineSwift-iOS-Demo/Pods-OKKLineSwift-iOS-Demo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B5B280A09495BF29C2595DB7 /* [CP] Embed Pods Frameworks */ = {
@@ -613,20 +798,20 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-OKKLineSwift-macOS-Demo/Pods-OKKLineSwift-macOS-Demo-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Just-macOS/Just.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit-macOS/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Just-macOS/Just.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Just.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Just.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OKKLineSwift-macOS-Demo/Pods-OKKLineSwift-macOS-Demo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D75719B703FF5BD626FC2808 /* [CP] Check Pods Manifest.lock */ = {
+		ECDCABE363CFC195E36E3D1C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -637,7 +822,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-OKKLineSwift-macOS-DemoTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-OKKLineSwift-macOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -647,32 +832,65 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		8835D6EA20E20B2C00115BE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8835D6FE20E20B5D00115BE2 /* OKBOLLModel.swift in Sources */,
+				8835D6FF20E20B5D00115BE2 /* OKEMAModel.swift in Sources */,
+				8835D70720E20B6600115BE2 /* OKMALineBrush.swift in Sources */,
+				8835D6FD20E20B4600115BE2 /* OKPlatform.swift in Sources */,
+				8835D70B20E20B7100115BE2 /* OKKLineView.swift in Sources */,
+				8835D70320E20B5D00115BE2 /* OKMAModel.swift in Sources */,
+				8835D70920E20B6E00115BE2 /* OKKLineMainView.swift in Sources */,
+				8835D70C20E20B7100115BE2 /* OKValueView.swift in Sources */,
+				8835D70620E20B6600115BE2 /* OKLineBrush.swift in Sources */,
+				8835D70120E20B5D00115BE2 /* OKKDJModel.swift in Sources */,
+				8835D70220E20B5D00115BE2 /* OKMACDModel.swift in Sources */,
+				8835D70020E20B5D00115BE2 /* OKEMAVOLUMEModel.swift in Sources */,
+				8835D70E20E20B7700115BE2 /* OKKLineVolumeView.swift in Sources */,
+				8835D70820E20B6B00115BE2 /* OKKLineAccessoryView.swift in Sources */,
+				8835D70520E20B6000115BE2 /* OKKLineModel.swift in Sources */,
+				8835D70D20E20B7400115BE2 /* OKSegmentView.swift in Sources */,
+				8835D70A20E20B7100115BE2 /* OKKLineDrawView.swift in Sources */,
+				8835D70420E20B5D00115BE2 /* OKMAVOLUMEModel.swift in Sources */,
+				8835D6FC20E20B4600115BE2 /* OKConfiguration.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8835D70F20E2113700115BE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8835D72320E2115300115BE2 /* OKBOLLModel.swift in Sources */,
+				8835D72420E2115300115BE2 /* OKEMAModel.swift in Sources */,
+				8835D72C20E2115A00115BE2 /* OKMALineBrush.swift in Sources */,
+				8835D72220E2114F00115BE2 /* OKPlatform.swift in Sources */,
+				8835D73020E2116300115BE2 /* OKKLineView.swift in Sources */,
+				8835D72820E2115300115BE2 /* OKMAModel.swift in Sources */,
+				8835D72E20E2115F00115BE2 /* OKKLineMainView.swift in Sources */,
+				8835D73120E2116300115BE2 /* OKValueView.swift in Sources */,
+				8835D72B20E2115A00115BE2 /* OKLineBrush.swift in Sources */,
+				8835D72620E2115300115BE2 /* OKKDJModel.swift in Sources */,
+				8835D72720E2115300115BE2 /* OKMACDModel.swift in Sources */,
+				8835D72520E2115300115BE2 /* OKEMAVOLUMEModel.swift in Sources */,
+				8835D73320E2116A00115BE2 /* OKKLineVolumeView.swift in Sources */,
+				8835D72D20E2115D00115BE2 /* OKKLineAccessoryView.swift in Sources */,
+				8835D72A20E2115600115BE2 /* OKKLineModel.swift in Sources */,
+				8835D73220E2116600115BE2 /* OKSegmentView.swift in Sources */,
+				8835D72F20E2116300115BE2 /* OKKLineDrawView.swift in Sources */,
+				8835D72920E2115300115BE2 /* OKMAVOLUMEModel.swift in Sources */,
+				8835D72120E2114F00115BE2 /* OKConfiguration.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F600A5311DF1212300CF1C8A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6E1F5A31E2DC26300E12D90 /* OKEMAModel.swift in Sources */,
-				F6E1F5AB1E2DC26300E12D90 /* OKMALineBrush.swift in Sources */,
-				F6E1F5A81E2DC26300E12D90 /* OKMAVOLUMEModel.swift in Sources */,
 				F600A64F1DF124C500CF1C8A /* OKKLineViewController.swift in Sources */,
-				F6E1F5A21E2DC26300E12D90 /* OKBOLLModel.swift in Sources */,
 				F600A53B1DF1212300CF1C8A /* ViewController.swift in Sources */,
-				F6E1F5A91E2DC26300E12D90 /* OKKLineModel.swift in Sources */,
-				F6E1F5AD1E2DC26300E12D90 /* OKKLineMainView.swift in Sources */,
 				F600A5391DF1212300CF1C8A /* AppDelegate.swift in Sources */,
-				F6E1F5A71E2DC26300E12D90 /* OKMAModel.swift in Sources */,
-				F6E1F5AF1E2DC26300E12D90 /* OKKLineView.swift in Sources */,
-				F6E1F5A01E2DC26300E12D90 /* OKConfiguration.swift in Sources */,
-				F6E1F5B11E2DC26300E12D90 /* OKSegmentView.swift in Sources */,
-				F6E1F5AC1E2DC26300E12D90 /* OKKLineAccessoryView.swift in Sources */,
-				F6E1F5B21E2DC26300E12D90 /* OKKLineVolumeView.swift in Sources */,
-				F6E1F5B01E2DC26300E12D90 /* OKValueView.swift in Sources */,
-				F6E1F5A11E2DC26300E12D90 /* OKPlatform.swift in Sources */,
-				F6E1F5AE1E2DC26300E12D90 /* OKKLineDrawView.swift in Sources */,
-				F6E1F5A41E2DC26300E12D90 /* OKEMAVOLUMEModel.swift in Sources */,
-				F6E1F5A61E2DC26300E12D90 /* OKMACDModel.swift in Sources */,
-				F6E1F5A51E2DC26300E12D90 /* OKKDJModel.swift in Sources */,
-				F6E1F5AA1E2DC26300E12D90 /* OKLineBrush.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -688,27 +906,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8835D6E520E2037E00115BE2 /* OKKLineDrawView.swift in Sources */,
-				8835D6E620E2037E00115BE2 /* OKKLineView.swift in Sources */,
-				8835D6E820E2038200115BE2 /* OKSegmentView.swift in Sources */,
-				8835D6D920E2036600115BE2 /* OKBOLLModel.swift in Sources */,
-				8835D6D820E2035B00115BE2 /* OKPlatform.swift in Sources */,
-				8835D6DD20E2036600115BE2 /* OKMACDModel.swift in Sources */,
 				F6AB1B641E1BCC6600B5260D /* ViewController.swift in Sources */,
-				8835D6DB20E2036600115BE2 /* OKEMAVOLUMEModel.swift in Sources */,
-				8835D6E320E2037700115BE2 /* OKKLineAccessoryView.swift in Sources */,
-				8835D6E720E2037E00115BE2 /* OKValueView.swift in Sources */,
-				8835D6E020E2036B00115BE2 /* OKKLineModel.swift in Sources */,
-				8835D6E120E2037100115BE2 /* OKLineBrush.swift in Sources */,
-				8835D6E920E2038600115BE2 /* OKKLineVolumeView.swift in Sources */,
-				8835D6DF20E2036600115BE2 /* OKMAVOLUMEModel.swift in Sources */,
-				8835D6E420E2037A00115BE2 /* OKKLineMainView.swift in Sources */,
-				8835D6DA20E2036600115BE2 /* OKEMAModel.swift in Sources */,
-				8835D6DC20E2036600115BE2 /* OKKDJModel.swift in Sources */,
 				F6AB1B621E1BCC6600B5260D /* AppDelegate.swift in Sources */,
-				8835D6D720E2035B00115BE2 /* OKConfiguration.swift in Sources */,
-				8835D6E220E2037100115BE2 /* OKMALineBrush.swift in Sources */,
-				8835D6DE20E2036600115BE2 /* OKMAModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -723,6 +922,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		8835D6F520E20B2C00115BE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8835D6EE20E20B2C00115BE2 /* OKKLineSwift-macOS */;
+			targetProxy = 8835D6F420E20B2C00115BE2 /* PBXContainerItemProxy */;
+		};
+		8835D71A20E2113700115BE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8835D71320E2113700115BE2 /* OKKLineSwift-iOS */;
+			targetProxy = 8835D71920E2113700115BE2 /* PBXContainerItemProxy */;
+		};
 		F600A54B1DF1212400CF1C8A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = F600A5341DF1212300CF1C8A /* OKKLineSwift-iOS-Demo */;
@@ -763,6 +972,211 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		8835D6F920E20B2C00115BE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C89A116839A2361B672B461E /* Pods-OKKLineSwift-macOS.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "OKKlineSwift-macOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "Herb.OKKLineSwift-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8835D6FA20E20B2C00115BE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7D83C88E50068A801EF4C1E /* Pods-OKKLineSwift-macOS.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				FRAMEWORK_VERSION = A;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "OKKlineSwift-macOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "Herb.OKKLineSwift-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8835D71D20E2113700115BE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 843F955393173DA784A20BB7 /* Pods-OKKLineSwift-iOS.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = GQNQ7XRR23;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "OKKLineSwift-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "Herb.OKKLineSwift-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8835D71E20E2113700115BE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 449BBE750DED9FBEC98390E1 /* Pods-OKKLineSwift-iOS.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = GQNQ7XRR23;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "OKKLineSwift-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "Herb.OKKLineSwift-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		F600A52F1DF1211000CF1C8A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -831,6 +1245,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1EF56DB7F7D6378D106CF783 /* Pods-OKKLineSwift-iOS-Demo.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -850,6 +1265,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -888,6 +1304,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F4124D9A80FE827D3DE5C115 /* Pods-OKKLineSwift-iOS-Demo.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -907,6 +1324,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -936,7 +1354,6 @@
 		};
 		F600A5541DF1212400CF1C8A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D540CBBBF2241323D97045B9 /* Pods-OKKLineSwift-iOS-DemoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -994,7 +1411,6 @@
 		};
 		F600A5551DF1212400CF1C8A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6A68A4B00D053EDB7FE4557C /* Pods-OKKLineSwift-iOS-DemoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1047,6 +1463,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0D0B65D3BA98A8E4406CC775 /* Pods-OKKLineSwift-macOS-Demo.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -1088,6 +1505,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E5BD8D7F9301BC4A7C1A0D89 /* Pods-OKKLineSwift-macOS-Demo.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -1121,7 +1539,6 @@
 		};
 		F6AB1B7A1E1BCC6600B5260D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 36B63F0075BA0C81803EBF95 /* Pods-OKKLineSwift-macOS-DemoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1164,7 +1581,6 @@
 		};
 		F6AB1B7B1E1BCC6600B5260D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 96345391D09FDE32574D7194 /* Pods-OKKLineSwift-macOS-DemoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1202,6 +1618,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		8835D6F820E20B2C00115BE2 /* Build configuration list for PBXNativeTarget "OKKLineSwift-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8835D6F920E20B2C00115BE2 /* Debug */,
+				8835D6FA20E20B2C00115BE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8835D71F20E2113700115BE2 /* Build configuration list for PBXNativeTarget "OKKLineSwift-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8835D71D20E2113700115BE2 /* Debug */,
+				8835D71E20E2113700115BE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		F600A52E1DF1211000CF1C8A /* Build configuration list for PBXProject "OKKLineSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

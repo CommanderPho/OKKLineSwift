@@ -28,7 +28,7 @@
 #endif
 import SnapKit
 
-class OKKLineView: OKView {
+public class OKKLineView: OKView {
     
     public var doubleTapHandle: (() -> Void)?
     private var klineDrawView: OKKLineDrawView!
@@ -57,7 +57,7 @@ class OKKLineView: OKView {
         
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     

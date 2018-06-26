@@ -24,14 +24,14 @@
 import Foundation
 
 /// k线类型
-enum OKKLineDataType: Int {
+public enum OKKLineDataType: Int {
     case BTC
     case LTC
     case ETH
     case other
 }
 
-class OKKLineModel: OKDescriptable {
+public class OKKLineModel: OKDescriptable {
     
     var klineDataType: OKKLineDataType
     // 日期
@@ -102,7 +102,7 @@ class OKKLineModel: OKDescriptable {
     // 下轨线
     var BOLL_DN: Double?
     
-    init(klineDataType: OKKLineDataType = .BTC,
+    public init(klineDataType: OKKLineDataType = .BTC,
          date: Double,
          open: Double,
          close: Double,
