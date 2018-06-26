@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "OKKLineSwift"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "Draw the K-Line by Swift, support iOS & macOS"
   s.homepage     = "https://github.com/xiao99xiao/OKKLineSwift"
   s.license      = "MIT"
