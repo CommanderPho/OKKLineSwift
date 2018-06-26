@@ -204,9 +204,9 @@ extension OKKLineMainView {
         let date = Date(timeIntervalSince1970: klineModel.date/1000)
         let dateString = configuration.dateFormatter.string(from: date)
 
-        let dateAttributes: [String : Any] = [
-            NSForegroundColorAttributeName : configuration.main.assistTextColor,
-            NSFontAttributeName : configuration.main.assistTextFont
+        let dateAttributes: [NSAttributedStringKey : Any] = [
+            NSAttributedStringKey.foregroundColor : configuration.main.assistTextColor,
+            NSAttributedStringKey.font : configuration.main.assistTextFont
         ]
 
         let dateAttrString = NSAttributedString(string: dateString, attributes: dateAttributes)
@@ -256,9 +256,9 @@ extension OKKLineMainView {
         formatter.dateFormat = "yyyy-MM-dd HH:mm"
         let dateStr = formatter.string(from: date) + " "
 
-        let dateAttrs: [String : Any] = [
-            NSForegroundColorAttributeName : configuration.main.assistTextColor,
-            NSFontAttributeName : configuration.main.assistTextFont
+        let dateAttrs: [NSAttributedStringKey : Any] = [
+            NSAttributedStringKey.foregroundColor : configuration.main.assistTextColor,
+            NSAttributedStringKey.font : configuration.main.assistTextFont
         ]
         drawAttrsString.append(NSAttributedString(string: dateStr, attributes: dateAttrs))
 
@@ -268,9 +268,9 @@ extension OKKLineMainView {
         let closeStr = String(format: "收: %.2f ", drawModel.close)
 
         let string = openStr + highStr + lowStr + closeStr
-        let attrs: [String : Any] = [
-            NSForegroundColorAttributeName : configuration.main.assistTextColor,
-            NSFontAttributeName : configuration.main.assistTextFont
+        let attrs: [NSAttributedStringKey : Any] = [
+            NSAttributedStringKey.foregroundColor : configuration.main.assistTextColor,
+            NSAttributedStringKey.font : configuration.main.assistTextFont
         ]
 
         drawAttrsString.append(NSAttributedString(string: string, attributes: attrs))
@@ -280,9 +280,9 @@ extension OKKLineMainView {
 
             for (idx, day) in days.enumerated() {
 
-                let attrs: [String : Any] = [
-                    NSForegroundColorAttributeName : configuration.theme.MAColor(day: day),
-                    NSFontAttributeName : configuration.main.assistTextFont
+                let attrs: [NSAttributedStringKey : Any] = [
+                    NSAttributedStringKey.foregroundColor : configuration.theme.MAColor(day: day),
+                    NSAttributedStringKey.font : configuration.main.assistTextFont
                 ]
 
                 if let value = drawModel.MAs![idx] {
@@ -294,9 +294,9 @@ extension OKKLineMainView {
         case .EMA(let days):
             for (idx, day) in days.enumerated() {
 
-                let attrs: [String : Any] = [
-                    NSForegroundColorAttributeName : configuration.theme.EMAColor(day: day),
-                    NSFontAttributeName : configuration.main.assistTextFont
+                let attrs: [NSAttributedStringKey : Any] = [
+                    NSAttributedStringKey.foregroundColor : configuration.theme.EMAColor(day: day),
+                    NSAttributedStringKey.font : configuration.main.assistTextFont
                 ]
                 if let value = drawModel.EMAs![idx] {
                     let maStr = String(format: "EMA\(day): %.2f ", value)
@@ -306,25 +306,25 @@ extension OKKLineMainView {
         case .BOLL(_):
 
             if let value = drawModel.BOLL_UP {
-                let upAttrs: [String : Any] = [
-                    NSForegroundColorAttributeName : configuration.theme.BOLL_UPColor,
-                    NSFontAttributeName : configuration.main.assistTextFont
+                let upAttrs: [NSAttributedStringKey : Any] = [
+                    NSAttributedStringKey.foregroundColor : configuration.theme.BOLL_UPColor,
+                    NSAttributedStringKey.font : configuration.main.assistTextFont
                 ]
                 let upAttrsStr = NSAttributedString(string: String(format: "UP: %.2f ", value), attributes: upAttrs)
                 drawAttrsString.append(upAttrsStr)
             }
             if let value = drawModel.BOLL_MB {
-                let mbAttrs: [String : Any] = [
-                    NSForegroundColorAttributeName : configuration.theme.BOLL_MBColor,
-                    NSFontAttributeName : configuration.main.assistTextFont
+                let mbAttrs: [NSAttributedStringKey : Any] = [
+                    NSAttributedStringKey.foregroundColor : configuration.theme.BOLL_MBColor,
+                    NSAttributedStringKey.font : configuration.main.assistTextFont
                 ]
                 let mbAttrsStr = NSAttributedString(string: String(format: "MB: %.2f ", value), attributes: mbAttrs)
                 drawAttrsString.append(mbAttrsStr)
             }
             if let value = drawModel.BOLL_DN {
-                let dnAttrs: [String : Any] = [
-                    NSForegroundColorAttributeName : configuration.theme.BOLL_DNColor,
-                    NSFontAttributeName : configuration.main.assistTextFont
+                let dnAttrs: [NSAttributedStringKey : Any] = [
+                    NSAttributedStringKey.foregroundColor : configuration.theme.BOLL_DNColor,
+                    NSAttributedStringKey.font : configuration.main.assistTextFont
                 ]
                 let dnAttrsStr = NSAttributedString(string: String(format: "DN: %.2f ", value), attributes: dnAttrs)
                 drawAttrsString.append(dnAttrsStr)

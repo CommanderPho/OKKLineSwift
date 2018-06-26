@@ -37,10 +37,10 @@
     import Cocoa
     public typealias OKFont = NSFont
     public typealias OKColor = NSColor
-    public typealias OKEdgeInsets = EdgeInsets
+    public typealias OKEdgeInsets = NSEdgeInsets
 
     func OKGraphicsGetCurrentContext() -> CGContext? {
-        return NSGraphicsContext.current()?.cgContext
+        return NSGraphicsContext.current?.cgContext
     }
 
 #endif
@@ -229,7 +229,7 @@ extension OKDescriptable {
         let strings = Mirror(reflecting: self).children.flatMap { "\($0.label!): \($0.value)" }
         var string = ""
         for str in strings {
-            string += str + "\n"
+            string += String(str) + "\n"
         }
         return string
     }

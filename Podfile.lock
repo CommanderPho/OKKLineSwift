@@ -1,0 +1,29 @@
+PODS:
+  - Just (0.6.0)
+  - SnapKit (4.0.0)
+
+DEPENDENCIES:
+  - Just (from `https://github.com/rpinz/Just.git`, branch `master`)
+  - SnapKit
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SnapKit
+
+EXTERNAL SOURCES:
+  Just:
+    :branch: master
+    :git: https://github.com/rpinz/Just.git
+
+CHECKOUT OPTIONS:
+  Just:
+    :commit: 096cad317f036f99259e0a2b8bae60b16c500b42
+    :git: https://github.com/rpinz/Just.git
+
+SPEC CHECKSUMS:
+  Just: 72e8a6e01ec5adba1aa0f7996ff4459aa6a3d710
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+
+PODFILE CHECKSUM: ee9736569821fc5e9d78cdc66890ba39375f822a
+
+COCOAPODS: 1.5.3

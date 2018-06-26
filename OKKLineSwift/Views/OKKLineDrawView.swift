@@ -26,6 +26,7 @@
 #else
     import Cocoa
 #endif
+import SnapKit
 
 class OKKLineDrawView: OKView {
 
@@ -434,7 +435,7 @@ extension OKKLineDrawView {
         override func updateTrackingAreas() {
             super.updateTrackingAreas()
 
-            let trackingArea = NSTrackingArea(rect: bounds, options: [.mouseMoved, .mouseEnteredAndExited, .activeAlways, .cursorUpdate], owner: self, userInfo: nil)
+            let trackingArea = NSTrackingArea(rect: bounds, options: [NSTrackingArea.Options.mouseMoved, NSTrackingArea.Options.mouseEnteredAndExited, NSTrackingArea.Options.activeAlways, NSTrackingArea.Options.cursorUpdate], owner: self, userInfo: nil)
             addTrackingArea(trackingArea)
         }
 
@@ -477,7 +478,7 @@ extension OKKLineDrawView {
 
         override func mouseDragged(with event: NSEvent) {
 
-            NSCursor.openHand().set()
+            NSCursor.openHand.set()
 
             let location = convert(event.locationInWindow, from: nil)
             let klineUnit = configuration.theme.klineWidth + configuration.theme.klineSpace
@@ -505,7 +506,7 @@ extension OKKLineDrawView {
 
         override func mouseMoved(with event: NSEvent) {
 
-            NSCursor.crosshair().set()
+            NSCursor.crosshair.set()
             layoutIndicatorView(with: event)
         }
 
