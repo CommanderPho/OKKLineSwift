@@ -2,7 +2,7 @@
 
 ### [English Introduction](README.md)
 
-:smile: **OKKLineSwift** 是本人用Swift3编写的绘制股票K线库
+:smile: **OKKLineSwift** 是本人用Swift4编写的绘制股票K线库
 
 ## 样例展示
 
@@ -18,11 +18,11 @@ macOS Screenshot
 
 支持环境
 ===
-Swift 3.0 
+Swift 4.1
 
-iOS 8+
+iOS 10+
 
-macOS 10.10+
+macOS 10.12+
 
 集成方法
 ===

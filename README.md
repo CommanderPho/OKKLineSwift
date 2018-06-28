@@ -2,7 +2,7 @@
 
 ### [中文介绍](README_CN.md)
 
-:smile: **OKKLineSwift** is written in Swift3 to draw the stock K-line library
+:smile: **OKKLineSwift** is written in Swift4 to draw the stock K-line library
 
 ## Screenshot
 
@@ -18,11 +18,11 @@ macOS Screenshot
 
 Support
 ===
-Swift 3.0 
+Swift 4.1 
 
-iOS 8+
+iOS 10+
 
-macOS 10.10+
+macOS 10.12+
 
 Installation
 ===
