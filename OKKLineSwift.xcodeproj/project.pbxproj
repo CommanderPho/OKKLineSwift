@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3062CD13401129259503461F /* Pods_OKKLineSwift_iOS_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14414C84CE7B86B8732E7D07 /* Pods_OKKLineSwift_iOS_Demo.framework */; };
-		8835D6F320E20B2C00115BE2 /* OKKlineSwift_macOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 8835D6F120E20B2C00115BE2 /* OKKlineSwift_macOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8835D6F320E20B2C00115BE2 /* OKKLineSwift_macOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 8835D6F120E20B2C00115BE2 /* OKKLineSwift_macOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8835D6F620E20B2C00115BE2 /* OKKLineSwift_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8835D6EF20E20B2C00115BE2 /* OKKLineSwift_macOS.framework */; };
 		8835D6F720E20B2C00115BE2 /* OKKLineSwift_macOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8835D6EF20E20B2C00115BE2 /* OKKLineSwift_macOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		8835D6FC20E20B4600115BE2 /* OKConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E1F5851E2DC26300E12D90 /* OKConfiguration.swift */; };
@@ -138,7 +138,7 @@
 		4D770E08B543F9649662D201 /* Pods_OKKLineSwift_macOS_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OKKLineSwift_macOS_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		843F955393173DA784A20BB7 /* Pods-OKKLineSwift-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OKKLineSwift-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OKKLineSwift-iOS/Pods-OKKLineSwift-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		8835D6EF20E20B2C00115BE2 /* OKKLineSwift_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OKKLineSwift_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8835D6F120E20B2C00115BE2 /* OKKlineSwift_macOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OKKlineSwift_macOS.h; sourceTree = "<group>"; };
+		8835D6F120E20B2C00115BE2 /* OKKLineSwift_macOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OKKLineSwift_macOS.h; sourceTree = "<group>"; };
 		8835D6F220E20B2C00115BE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8835D71420E2113700115BE2 /* OKKLineSwift_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OKKLineSwift_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8835D71620E2113700115BE2 /* OKKLineSwift_iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OKKLineSwift_iOS.h; sourceTree = "<group>"; };
@@ -261,13 +261,13 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		8835D6F020E20B2C00115BE2 /* OKKlineSwift-macOS */ = {
+		8835D6F020E20B2C00115BE2 /* OKKLineSwift-macOS */ = {
 			isa = PBXGroup;
 			children = (
-				8835D6F120E20B2C00115BE2 /* OKKlineSwift_macOS.h */,
+				8835D6F120E20B2C00115BE2 /* OKKLineSwift_macOS.h */,
 				8835D6F220E20B2C00115BE2 /* Info.plist */,
 			);
-			path = "OKKlineSwift-macOS";
+			path = "OKKLineSwift-macOS";
 			sourceTree = "<group>";
 		};
 		8835D71520E2113700115BE2 /* OKKLineSwift-iOS */ = {
@@ -301,7 +301,7 @@
 				F600A54C1DF1212400CF1C8A /* OKKLineSwift-iOS-DemoTests */,
 				F6AB1B601E1BCC6600B5260D /* OKKLineSwift-macOS-Demo */,
 				F6AB1B721E1BCC6600B5260D /* OKKLineSwift-macOS-DemoTests */,
-				8835D6F020E20B2C00115BE2 /* OKKlineSwift-macOS */,
+				8835D6F020E20B2C00115BE2 /* OKKLineSwift-macOS */,
 				8835D71520E2113700115BE2 /* OKKLineSwift-iOS */,
 				F600A5361DF1212300CF1C8A /* Products */,
 				23053B3D91D5B07D34686D55 /* Pods */,
@@ -471,7 +471,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8835D6F320E20B2C00115BE2 /* OKKlineSwift_macOS.h in Headers */,
+				8835D6F320E20B2C00115BE2 /* OKKLineSwift_macOS.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1009,7 +1009,7 @@
 				);
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				INFOPLIST_FILE = "OKKlineSwift-macOS/Info.plist";
+				INFOPLIST_FILE = "OKKLineSwift-macOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
@@ -1058,7 +1058,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				INFOPLIST_FILE = "OKKlineSwift-macOS/Info.plist";
+				INFOPLIST_FILE = "OKKLineSwift-macOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
