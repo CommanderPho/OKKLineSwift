@@ -8,7 +8,7 @@
 import Cocoa
 import SnapKit
 import Just
-import OKKlineSwift_macOS
+import OKKLineSwift_macOS
 
 class ViewController: NSViewController {
     
@@ -27,17 +27,18 @@ class ViewController: NSViewController {
     
     @objc
     func fetchData() {
-        let param = ["type" : "5min",
-                     "symbol" : "okcoincnbtccny",
-                     "size" : "1000"]
-        Just.post("https://www.btc123.com/kline/klineapi", params: param, asyncCompletionHandler: { (result) -> Void in
+        let param = ["unit" : "86400",
+                     "pair" : "btc_jpy",
+                     "limit" : "300",
+                     "market" : "coincheck",
+                     "v2" : "true"]
+        Just.get("https://coincheck.com/api/charts/candle_rates", params: param, asyncCompletionHandler: { (result) -> Void in
             
             print(result)
             DispatchQueue.main.async(execute: {
                 
                 if result.ok {
-                    let resultData = result.json as! [String : Any]
-                    let datas = resultData["datas"] as! [[Double]]
+                    let datas = result.json as! [[Double]]
                     
                     var dataArray : [OKKLineModel] = []
                     for data in datas {
