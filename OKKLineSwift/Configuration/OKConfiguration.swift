@@ -28,14 +28,14 @@
 #endif
 
 /// K线类型
-enum OKKLineType: Int {
+public enum OKKLineType: Int {
     case KLine // K线
     case timeLine // 分时图
     case other // 其他
 }
 
 /// 指标种类
-enum OKIndicatorType {
+public enum OKIndicatorType {
     case NONE
     case MA([Int])
     case MA_VOLUME([Int])
@@ -50,7 +50,7 @@ enum OKIndicatorType {
 }
 
 /// 时间线分隔
-enum OKTimeLineType: Int {
+public enum OKTimeLineType: Int {
     case realTime = 1 // 分时
     case oneMinute = 60 // 1分
     case fiveMinute = 300 // 5分
@@ -71,32 +71,32 @@ public final class OKConfiguration {
     static let sharedConfiguration = OKConfiguration()
     
     // MARK: - Common
-    var dateFormatter: DateFormatter
+    public var dateFormatter: DateFormatter
     
-    let dataSource: OKDataSource = OKDataSource()
+    public let dataSource: OKDataSource = OKDataSource()
     
     /// 全局主题
-    let theme: OKTheme = OKTheme()
+    public let theme: OKTheme = OKTheme()
     
     /// 主图Configuration(main)
-    let main: OKMainConfiguration = OKMainConfiguration()
+    public let main: OKMainConfiguration = OKMainConfiguration()
     
     /// 成交量图Configuration(volume)
-    let volume: OKVolumeConfiguration = OKVolumeConfiguration()
+    public let volume: OKVolumeConfiguration = OKVolumeConfiguration()
     
     /// 指标图Configuration(accessory)
-    let accessory: OKAccessoryConfiguration = OKAccessoryConfiguration()
+    public let accessory: OKAccessoryConfiguration = OKAccessoryConfiguration()
     
     /// 价格视图Configuration(value)
-    let value: OKValueConfiguration = OKValueConfiguration()
+    public let value: OKValueConfiguration = OKValueConfiguration()
     
 }
 
 public class OKDataSource {
     
-    var drawRange: NSRange?
-    var klineModels = [OKKLineModel]()
-    var drawKLineModels = [OKKLineModel]()
+    public var drawRange: NSRange?
+    public var klineModels = [OKKLineModel]()
+    public var drawKLineModels = [OKKLineModel]()
 }
 
 // MARK: - 皮肤主题
@@ -105,54 +105,54 @@ public class OKTheme {
     // MARK: K线主题
     
     /// 涨的颜色
-    var increaseColor: OKColor = OKColor(hexRGB: 0xFF5353)
+    public var increaseColor: OKColor = OKColor(hexRGB: 0xFF5353)
     
     /// 跌的颜色
-    var decreaseColor: OKColor = OKColor(hexRGB: 0x00B07C)
+    public var decreaseColor: OKColor = OKColor(hexRGB: 0x00B07C)
     
     /// k线的间隔
-    var klineSpace: CGFloat = 1.0
+    public var klineSpace: CGFloat = 1.0
     
     /// k线图主体宽度
-    var klineWidth: CGFloat = 5.0
+    public var klineWidth: CGFloat = 5.0
     
     /// 上下影线宽度
-    var klineShadowLineWidth: CGFloat = 1.0
+    public var klineShadowLineWidth: CGFloat = 1.0
     
     /// k线最大宽度
-    var klineMaxWidth: CGFloat = 20.0
+    public var klineMaxWidth: CGFloat = 20.0
     
     /// k线最小宽度
-    var klineMinWidth: CGFloat = 2.0
+    public var klineMinWidth: CGFloat = 2.0
     
     /// k线缩放界限
-    var klineScale: CGFloat = 0.03
+    public var klineScale: CGFloat = 0.03
     
     /// k线缩放因子
-    var klineScaleFactor: CGFloat = 0.03
+    public var klineScaleFactor: CGFloat = 0.03
     
     /// 指标线宽度
-    var indicatorLineWidth: CGFloat = 0.8
+    public var indicatorLineWidth: CGFloat = 0.8
 
     /// 十字线颜色
-    var longPressLineColor: OKColor = OKColor(hexRGB: 0xE1E2E6)
+    public var longPressLineColor: OKColor = OKColor(hexRGB: 0xE1E2E6)
     
     /// 十字线宽度
-    var longPressLineWidth: CGFloat = 0.5
+    public var longPressLineWidth: CGFloat = 0.5
     
     // MARK: 指标颜色
     
-    var DIFColor: OKColor = OKColor(hexRGB: 0xFF8D1D)
-    var DEAColor: OKColor = OKColor(hexRGB: 0x0DAEE6)
-    var MACDColor: OKColor = OKColor(hexRGB: 0xFFC90E)
+    public var DIFColor: OKColor = OKColor(hexRGB: 0xFF8D1D)
+    public var DEAColor: OKColor = OKColor(hexRGB: 0x0DAEE6)
+    public var MACDColor: OKColor = OKColor(hexRGB: 0xFFC90E)
     
-    var KDJ_KColor: OKColor = OKColor(hexRGB: 0xFF8D1D)
-    var KDJ_DColor: OKColor = OKColor(hexRGB: 0x0DAEE6)
-    var KDJ_JColor: OKColor = OKColor(hexRGB: 0xE970DC)
+    public var KDJ_KColor: OKColor = OKColor(hexRGB: 0xFF8D1D)
+    public var KDJ_DColor: OKColor = OKColor(hexRGB: 0x0DAEE6)
+    public var KDJ_JColor: OKColor = OKColor(hexRGB: 0xE970DC)
     
-    var BOLL_MBColor: OKColor = OKColor(hexRGB: 0xFFAEBF)
-    var BOLL_UPColor: OKColor = OKColor(hexRGB: 0xFFC90E)
-    var BOLL_DNColor: OKColor = OKColor(hexRGB: 0x0DAEE6)
+    public var BOLL_MBColor: OKColor = OKColor(hexRGB: 0xFFAEBF)
+    public var BOLL_UPColor: OKColor = OKColor(hexRGB: 0xFFC90E)
+    public var BOLL_DNColor: OKColor = OKColor(hexRGB: 0x0DAEE6)
     
     public func MAColor(day: Int) -> OKColor {
         return OKColor(hexRGB: 0x4498EA + day)
@@ -168,40 +168,40 @@ public class OKTheme {
 public class OKMainConfiguration {
     
     /// 主图图表的背景色
-    var backgroundColor: OKColor = OKColor(hexRGB: 0x181C20)
+    public var backgroundColor: OKColor = OKColor(hexRGB: 0x181C20)
     
     /// 主图比例
-    var scale: CGFloat = 0.50
+    public var scale: CGFloat = 0.50
     
     /// 主图顶部提示信息高度
-    var topAssistViewHeight: CGFloat = 30.0
+    public var topAssistViewHeight: CGFloat = 30.0
     
     /// 主图底部时间线信息高度
-    var bottomAssistViewHeight: CGFloat = 15.0
+    public var bottomAssistViewHeight: CGFloat = 15.0
     
     /// 时间线
-    var timeLineType: OKTimeLineType = .realTime
+    public var timeLineType: OKTimeLineType = .realTime
     
     /// 主图K线类型
-    var klineType: OKKLineType = .KLine
+    public var klineType: OKKLineType = .KLine
     
     /// 主图分时线宽度
-    var realtimeLineWidth: CGFloat = 1.0
+    public var realtimeLineWidth: CGFloat = 1.0
     
     /// 分时线颜色
-    var realtimeLineColor: OKColor = OKColor(hexRGB: 0xFFFFFF)
+    public var realtimeLineColor: OKColor = OKColor(hexRGB: 0xFFFFFF)
     
     /// 主图指标类型
-    var indicatorType: OKIndicatorType = .MA([12, 26])
+    public var indicatorType: OKIndicatorType = .MA([12, 26])
     
     /// 辅助视图背景色(e.g. 日期的背景色)
-    var assistViewBgColor: OKColor = OKColor(hexRGB: 0x1D2227)
+    public var assistViewBgColor: OKColor = OKColor(hexRGB: 0x1D2227)
     
     /// 辅助视图字体颜色(e.g. 日期的字体颜色)
-    var assistTextColor: OKColor = OKColor(hexRGB: 0x565A64)
+    public var assistTextColor: OKColor = OKColor(hexRGB: 0x565A64)
     
     /// 辅助视图字体大小(e.g. 日期的字体大小)
-    var assistTextFont: OKFont = OKFont.systemFont(ofSize: 11)
+    public var assistTextFont: OKFont = OKFont.systemFont(ofSize: 11)
 }
 
 // MARK: - 成交量图Configuration(volume)
@@ -209,22 +209,22 @@ public class OKMainConfiguration {
 public class OKVolumeConfiguration {
     
     /// 是否显示成交量视图
-    var show: Bool = true
+    public var show: Bool = true
     
     /// 成交量视图背景色
-    var backgroundColor: OKColor = OKColor(hexRGB: 0x181C20)
+    public var backgroundColor: OKColor = OKColor(hexRGB: 0x181C20)
     
     /// 成交量比例
-    var scale: CGFloat = 0.25
+    public var scale: CGFloat = 0.25
     
     /// 顶部提示信息高度
-    var topViewHeight: CGFloat = 20.0
+    public var topViewHeight: CGFloat = 20.0
     
     /// 成交量图分时线宽度
-    var lineWidth: CGFloat = 0.5
+    public var lineWidth: CGFloat = 0.5
     
     /// 成交量指标类型
-    var indicatorType: OKIndicatorType = .EMA_VOLUME([12, 26])
+    public var indicatorType: OKIndicatorType = .EMA_VOLUME([12, 26])
 }
 
 // MARK: - 指标图Configuration(accessory)
@@ -232,29 +232,29 @@ public class OKVolumeConfiguration {
 public class OKAccessoryConfiguration {
     
     /// 是否显示指标图
-    var show: Bool = true
+    public var show: Bool = true
     
     /// 指标视图背景色
-    var backgroundColor: OKColor = OKColor(hexRGB: 0x181C20)
+    public var backgroundColor: OKColor = OKColor(hexRGB: 0x181C20)
     
     /// 指标图比例
-    var scale: CGFloat = 0.25
+    public var scale: CGFloat = 0.25
     
     /// 顶部提示信息高度
-    var topViewHeight: CGFloat = 20.0
+    public var topViewHeight: CGFloat = 20.0
     
     /// 指标图分时线宽度
-    var lineWidth: CGFloat = 0.5
+    public var lineWidth: CGFloat = 0.5
     
     /// 辅助图指标类型
-    var indicatorType: OKIndicatorType = .MACD
+    public var indicatorType: OKIndicatorType = .MACD
 }
 
 // MARK: - 价格视图Configuration(value)
 
 public class OKValueConfiguration {
     
-    var backgroundColor: OKColor = OKColor(hexRGB: 0x181C20)
-    var textFont: OKFont = OKFont.systemFont(ofSize: 11)
-    var textColor: OKColor = OKColor(hexRGB: 0xDCDADC)
+    public var backgroundColor: OKColor = OKColor(hexRGB: 0x181C20)
+    public var textFont: OKFont = OKFont.systemFont(ofSize: 11)
+    public var textColor: OKColor = OKColor(hexRGB: 0xDCDADC)
 }
