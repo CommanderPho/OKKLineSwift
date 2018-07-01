@@ -32,7 +32,7 @@ class OKKLineAccessoryView: OKView {
     // MARK: - Property
     public var limitValueChanged: ((_ limitValue: (minValue: Double, maxValue: Double)?) -> Void)?
 
-    fileprivate let configuration = OKConfiguration.sharedConfiguration
+    fileprivate let configuration = OKConfiguration.shared
     fileprivate var accessoryDrawKLineModels: [OKKLineModel]?
     fileprivate var drawAssistString: NSAttributedString?
 

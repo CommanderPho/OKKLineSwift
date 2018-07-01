@@ -41,7 +41,7 @@ class OKMALineBrush {
     public var brushType: OKBrushType
     private var context: CGContext
     private var firstValueIndex: Int?
-    private let configuration = OKConfiguration.sharedConfiguration
+    private let configuration = OKConfiguration.shared
     
 
     init(brushType: OKBrushType, context: CGContext) {

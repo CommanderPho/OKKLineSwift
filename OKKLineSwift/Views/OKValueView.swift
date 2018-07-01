@@ -41,7 +41,7 @@ class OKValueView: OKView {
         }
     }
 
-    private let configuration = OKConfiguration.sharedConfiguration
+    private let configuration = OKConfiguration.shared
     private var drawEdgeInsets: OKEdgeInsets!
     private var limitValueAttrs: [NSAttributedStringKey : Any]!
     private var currentValueAttrs: [NSAttributedStringKey : Any]!

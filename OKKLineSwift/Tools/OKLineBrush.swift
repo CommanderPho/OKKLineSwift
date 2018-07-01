@@ -33,7 +33,7 @@ class OKLineBrush {
     public var indicatorType: OKIndicatorType
     private var context: CGContext
     private var firstValueIndex: Int?
-    private let configuration = OKConfiguration.sharedConfiguration
+    private let configuration = OKConfiguration.shared
     
     public var calFormula: ((Int, OKKLineModel) -> CGPoint?)?
     

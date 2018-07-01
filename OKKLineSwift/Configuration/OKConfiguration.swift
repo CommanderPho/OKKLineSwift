@@ -68,7 +68,7 @@ public final class OKConfiguration {
         dateFormatter.dateFormat = "HH:mm"
     }
     
-    static let sharedConfiguration = OKConfiguration()
+    public static let shared = OKConfiguration()
     
     // MARK: - Common
     public var dateFormatter: DateFormatter

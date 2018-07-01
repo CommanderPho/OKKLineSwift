@@ -47,7 +47,7 @@ class OKSegmentView: OKView {
     public weak var delegate: OKSegmentViewDelegate?
     public var didSelectedSegment: ((_ segmentView: OKSegmentView, _ result: (index: Int, title: String)) -> Void)?
     
-    private let configuration = OKConfiguration.sharedConfiguration
+    private let configuration = OKConfiguration.shared
     private var scrollView: OKScrollView!
     
     override init(frame: CGRect) {

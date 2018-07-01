@@ -36,7 +36,7 @@ public class OKKLineView: OKView {
     private var mainViewIndicatorSegmentView: OKSegmentView!
     private var volumeViewIndicatorSegmentView: OKSegmentView!
     private var accessoryViewIndicatorSegmentView: OKSegmentView!
-    private let configuration = OKConfiguration.sharedConfiguration
+    private let configuration = OKConfiguration.shared
     
     override init(frame: CGRect) {
         super.init(frame: frame)

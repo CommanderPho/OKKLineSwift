@@ -33,7 +33,7 @@ class OKKLineDrawView: OKView {
     // MARK: - Property
     public var doubleTapHandle: (() -> Void)?
 
-    fileprivate let configuration = OKConfiguration.sharedConfiguration
+    fileprivate let configuration = OKConfiguration.shared
 
     fileprivate let drawValueViewWidth: CGFloat = 50.0
 
